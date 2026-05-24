@@ -161,7 +161,7 @@ public class MainActivity extends AppCompatActivity {
         Intent shareIntent = new Intent(Intent.ACTION_SEND);
         shareIntent.setType("text/plain");
         shareIntent.putExtra(Intent.EXTRA_TEXT,
-                "Check out ZakatGold – a gold zakat calculator! https://github.com/yourusername/zakatgold");
+                "Check out ZakatGold – a gold zakat calculator! https://github.com/tnhazq04/ZakatGoldCalculator_Android");
         startActivity(Intent.createChooser(shareIntent, "Share via"));
     }
 }

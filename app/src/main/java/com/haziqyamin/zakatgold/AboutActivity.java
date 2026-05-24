@@ -10,7 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class AboutActivity extends AppCompatActivity {
 
     TextView tvGithubLink;
-    String githubUrl = "https://github.com/haziqyamin/zakatgold";
+    String githubUrl = "https://github.com/tnhazq04/ZakatGoldCalculator_Android";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
